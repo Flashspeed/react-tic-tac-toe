@@ -15,7 +15,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.jsx?$/, // Match .jsx or .js
                 use: ["babel-loader"],
                 include: path.resolve(__dirname, "./src")
             },
