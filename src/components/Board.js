@@ -5,7 +5,7 @@ export class Board extends Component
 {
     renderSquare(index)
     {
-        return <Square/>;
+        return <Square value={index}/>;
     }
 
     render()
